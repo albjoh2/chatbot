@@ -13,7 +13,7 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       keyframes: {
-        "accordion-dowm": {
+        "accordion-down": {
           from: { height: 0 },
           to: { height: "var(--radix-accordion-content-height)" },
         },
@@ -23,7 +23,7 @@ module.exports = {
         },
       },
       animation: {
-        "accordion-dowm": "accordion-dowm 200ms ease-out",
+        "accordion-down": "accordion-down 200ms ease-out",
         "accordion-up": "accordion-up 200ms ease-out",
       },
     },
